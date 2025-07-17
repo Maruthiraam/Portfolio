@@ -6,10 +6,20 @@ header ul li{
 
 }
 .bg-primary{
-    background:	rgb(54, 69, 79)
+    background:	rgb(63, 23, 20)
+}
+.bg-secondary{
+    background:	#920707
+
+}
+.man{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
 }
 .phone-nav{
-    @apply fixed top-11 left-0 bg-gray-600 w-full h-1/4;
+    @apply fixed top-11 left-0 bg-red-800 w-full h-1/4;
 }
 .phone-nav  li{
     @apply w-full h-full text-center border-b-2;
